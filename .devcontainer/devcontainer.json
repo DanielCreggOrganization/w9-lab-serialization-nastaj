@@ -9,9 +9,9 @@
         "vscjava.vscode-java-dependency",
         "visualstudioexptteam.vscodeintellicode",
         "github.copilot@prerelease",
-        "github.copilot-chat@prerelease"
+        "github.copilot-chat@prerelease",
+	      "bierner.markdown-mermaid"
       ]
     }
-  },
-  "postStartCommand": "code -g ./src/ie/atu/testpackage/HelloWorld.java"
+  }
 }
