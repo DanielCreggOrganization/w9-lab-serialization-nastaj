@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Open Main.java",
+            "command": "code",
+            "args": ["src/ie/atu/testpackage/Main.java"],
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}
