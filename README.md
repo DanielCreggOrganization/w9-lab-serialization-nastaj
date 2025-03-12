@@ -80,7 +80,8 @@ graph LR
     B --> D[File Storage]
     B --> E[Network Transmission]
     B --> F[Database]
-
+```
+```mermaid
 graph TD
     A[Java Object] --> B[ObjectOutputStream]
     B --> C[FileOutputStream]
