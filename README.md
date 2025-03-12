@@ -2,15 +2,14 @@
 
 ## Table of Contents
 
-1.  [Project Setup](#1-project-setup)
-2.  [Introduction to Serialization and Basic Usage](#2-introduction-to-serialization-and-basic-usage)
-3.  [Serializing Collections](#3-serializing-collections)
-4.  [Using the `transient` Keyword](#4-using-the-transient-keyword)
-5.  [Understanding `serialVersionUID`](#5-understanding-serialversionuid)
-6.  [Custom Serialization (`writeObject` and `readObject`)](#6-custom-serialization-writeobject-and-readobject)
-7.  [Security Considerations](#7-security-considerations)
-8.  [Best Practices and Common Pitfalls](#8-best-practices-and-common-pitfalls)
-9.  [Comprehensive DIY Task: Employee Management System](#9-comprehensive-diy-task-employee-management-system)
+1. [Project Setup](#1-project-setup)
+2. [Introduction to Serialization and Basic Usage](#2-introduction-to-serialization-and-basic-usage)
+3. [Serializing Collections](#3-serializing-collections)
+4. [Using the `transient` Keyword](#4-using-the-transient-keyword)
+5. [Understanding `serialVersionUID`](#5-understanding-serialversionuid)
+6. [Best Practices and Common Pitfalls](#6-best-practices-and-common-pitfalls)
+7. [Custom Serialization (`writeObject` and `readObject`)](#7-custom-serialization-writeobject-and-readobject)
+8. [Comprehensive DIY Task: Employee Management System](#8-comprehensive-diy-task-employee-management-system)
 
 ## 1. Project Setup
 
