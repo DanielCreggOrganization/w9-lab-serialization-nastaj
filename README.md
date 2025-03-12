@@ -362,9 +362,9 @@ The `serialVersionUID` is a unique identifier for a serializable class. It's use
 
 ```mermaid
 graph LR
-    A[Serialized Object (serialVersionUID=X)] --> B{Deserialization}
-    B -- serialVersionUID matches class? --> C{Yes}
-    B -- serialVersionUID matches class? --> D{No}
+    A[Serialized Object serialVersionUID=X] --> B{Deserialization}
+    B -- serialVersionUID matches class? --> C[Yes]
+    B -- serialVersionUID doesn't match --> D[No]
     C --> E[Object Created]
     D --> F[InvalidClassException]
 ```
