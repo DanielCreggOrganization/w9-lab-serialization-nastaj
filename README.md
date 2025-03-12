@@ -8,8 +8,7 @@
 4. [Using the `transient` Keyword](#4-using-the-transient-keyword)
 5. [Understanding `serialVersionUID`](#5-understanding-serialversionuid)
 6. [Best Practices and Common Pitfalls](#6-best-practices-and-common-pitfalls)
-7. [Custom Serialization (`writeObject` and `readObject`)](#7-custom-serialization-writeobject-and-readobject)
-8. [Comprehensive DIY Task: Employee Management System](#8-comprehensive-diy-task-employee-management-system)
+7. [Comprehensive DIY Task: Employee Management System](#7-comprehensive-diy-task-employee-management-system)
 
 ## 1. Project Setup
 
@@ -602,7 +601,7 @@ class PersonImmutable implements Serializable {
     * **Redesign:**  Consider if the circular reference is truly necessary. Could you, for example, store a list of book IDs in the `Author` class instead of direct object references?
 5. Once the circular reference is fixed serialize and deserialize the author and their books
 
-## 8. Comprehensive DIY Task: Employee Management System
+## 7. Comprehensive DIY Task: Employee Management System
 
 This task combines all the concepts covered in the lab.
 
