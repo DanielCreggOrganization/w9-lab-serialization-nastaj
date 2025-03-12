@@ -478,6 +478,9 @@ graph TD
     A --> F[Trust No One]
     A --> G[try-with-resources]
     A --> H[Document]
+```
+```mermaid
+graph TD
     I[Pitfalls] --> J[NotSerializableException]
     I --> K[InvalidClassException]
     I --> L[Accidental Serialization]
