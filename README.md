@@ -31,10 +31,9 @@ graph TD
 
 ### DIY Task 1: Create Project Structure
 
-1.  New Java project.
-2.  Package: `ie.atu.serialization`.
-3.  Class: `Main` (inside the package).
-4.  `Main.java` content:
+1.  Create a new package: `ie.atu.serialization`.
+2.  Create a class: `Main` (inside the package).
+3.  `Main.java` content:
 
     ```java
     package ie.atu.serialization;
@@ -45,7 +44,7 @@ graph TD
         }
     }
     ```
-5.  `resources` directory at project root.
+4.  Create a `resources` directory at project root as indicated in the diagram above.
 
 ## 2. Introduction to Serialization and Basic Usage
 
