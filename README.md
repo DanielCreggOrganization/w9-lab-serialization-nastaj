@@ -22,7 +22,7 @@ graph TD
     A[Java Project] --> B[src]
     A --> C[resources]
     B --> D[ie.atu.serialization]
-    D --> E[Classes (Main.java, etc.)]
+    D --> E[Classes Main.java, etc.]
     C --> F[Serialized Data Files]
 ```
 
