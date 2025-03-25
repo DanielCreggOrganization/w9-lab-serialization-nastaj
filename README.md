@@ -556,7 +556,6 @@ Create a game save system that handles version compatibility:
 
 3. Update GameSave to Version 2 by adding:
    - playTime (long)
-   - achievements (List<String>)
    - serialVersionUID = 2L
 
 <details>
