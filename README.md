@@ -211,35 +211,26 @@ public class Main {
         books.forEach(System.out::println);
         
         // Serialize list
-        serializeBooks(books, "resources/library.ser");
-        
-        // Deserialize list
-        List<Book> loadedBooks = deserializeBooks("resources/library.ser");
-        
-        System.out.println("\nDeserialized catalog:");
-        loadedBooks.forEach(System.out::println);
-    }
-    
-    private static void serializeBooks(List<Book> books, String filename) {
         try (ObjectOutputStream out = new ObjectOutputStream(
-                new FileOutputStream(filename))) {
+                new FileOutputStream("resources/library.ser"))) {
             out.writeObject(books);
             System.out.println("\nCatalog has been serialized");
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-    
-    private static List<Book> deserializeBooks(String filename) {
-        List<Book> books = new ArrayList<>();
+        
+        // Deserialize list
+        List<Book> loadedBooks = new ArrayList<>();
         try (ObjectInputStream in = new ObjectInputStream(
-                new FileInputStream(filename))) {
-            books = (List<Book>) in.readObject();
+                new FileInputStream("resources/library.ser"))) {
+            loadedBooks = (List<Book>) in.readObject();
             System.out.println("Catalog has been deserialized");
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
-        return books;
+        
+        System.out.println("\nDeserialized catalog:");
+        loadedBooks.forEach(System.out::println);
     }
 }
 ```
