@@ -383,14 +383,14 @@ Create a bank account system that properly handles sensitive data:
    - accountHolder (String)
    - balance (double)
    - transient pin (String)
-
-2. Implement methods to:
-   - Deposit money
-   - Withdraw money (requires PIN)
-   - Balance check
-   - Update PIN
-
-3. Test serialization and deserialization, ensuring sensitive data is properly handled
+2. Override the toString method to print all the variables above.
+3. In the main method, c
+   - Create an object of the BankAccount class
+   - Print the contents of the object
+   - Serialize the object
+   - Deserialize the object
+   - Print the contents of the object
+   - Note that the pin was not serialized and is thus `null`.
 
 <details>
 <summary>Click to see expected output</summary>
