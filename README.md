@@ -384,7 +384,7 @@ Create a bank account system that properly handles sensitive data:
    - balance (double)
    - transient pin (String)
 2. Override the toString method to print all the variables above.
-3. In the main method, c
+3. In the main method:
    - Create an object of the BankAccount class
    - Print the contents of the object
    - Serialize the object
@@ -401,12 +401,6 @@ Account has been serialized
 
 Account has been deserialized
 Deserialized Account: BankAccount{accountNumber='1234567890', accountHolder='Jane Doe', balance=1000.0, pin='null'}
-
-Attempting to withdraw with null PIN: Access denied
-Setting new PIN: Success
-Balance check after PIN update: 1000.0
-Withdrawal of 500.0: Success
-Final balance: 500.0
 ```
 </details>
 
